@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Boxicons -->
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- AOS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+    />
+    <!-- Swiper -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.7.0/swiper-bundle.min.css"
+    />
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="styles.css" />
+    <title>Веб-портфолио</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header" id="header">
+      <div class="navigation">      
+        <div class="nav-center d-flex">        <a href="#header"><div>
+         <h2 class="logo d-flex" href="#contact" >
+            <span class="color">D</span>
+            <span>lbdv.dmitry</span>
+          </h2>          </div></a>
+          <ul class="nav-list d-flex">
+            <li class="nav-item">
+              <a href="#header" class="nav-link scroll-link">Домой</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link scroll-link">Обо мне</a>
+            </li>
+            <li class="nav-item">
+              <a href="#portfolio" class="nav-link scroll-link">Проекты</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link scroll-link">Контакты</a>
+            </li>
+
+            <!-- Theme -->
+            <li class="nav-item theme-icon">
+              <i class="bx bx-moon"></i>
+            </li>
+
+            <!-- Close Button -->
+            <div class="close">
+              <i class="bx bx-x"></i>
+            </div>
+          </ul>
+
+          <!-- theme -->
+          <div class="theme theme-icon">
+            <i class="bx bx-moon"></i>
+          </div>
+
+          <!-- Hamburger -->
+          <div class="hamburger">
+            <i class="bx bx-menu"></i>
+          </div>
+        </div>
+      </div>
+      <!-- Overlay -->
+      <div class="overlay"></div>
+
+      <!-- Hero Image -->
+      <img src="./images/hero.png" class="hero-img" alt="" />
+      <!-- Social Links -->
+      <div class="socials">
+        <a href="https://www.instagram.com/lbdv.dmitry"><span class="icon"><i class="bx bxl-instagram"></i></span></a>
+       <a href="https://github.com/Dm1trylbdv"> <span class="icon"><i class="bx bxl-github"></i></span></a>
+      </div>
+         <!-- Hero -->
+
+      <div class="content">
+        <span>Привет</span>
+        <h1>Я Дмитрий <span id="type1"></span></h1>
+        <p>
+          Студент РГПУ им. А.И.Герцена, специальности "Информатика и вычислительная техника".           В свободное время занимаюсь графическим и веб-дизайном.
+        </p>
+        <a href="#contact" class="btn btn-hero">Написать мне</a>
+      </div>
+    </header>
+    <!-- About Section -->
+    <section class="section about" id="about">
+      <div class="container">
+        <div class="about-center d-flex">
+          <div class="col-1" data-aos="fade-right" data-aos-duration="1300">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600">
+              <defs>
+                <style>
+                  .cls-1 {
+                    fill-rule: evenodd;
+                  }
+                </style>
+              </defs>
+              <path
+                class="cls-1"
+                d="M348.966,185.028C352.5,133.656,390.75,98.4,408.679,84.919c65.653-49.37,156.979-31.683,212.511,6.147,66.582,45.359,84.381,124.626,87.814,168.6,11.7,149.93-115.48,312.737-230.073,307.349-36.811-1.731-88.125-21.605-104.5-62.348-21.744-54.1,38.923-101.571,32.491-167.725C400.873,274.711,344.529,249.615,348.966,185.028Z"
+              />
+              <img src="./images/about-img.png" alt="">
+            </svg>
+          </div>
+          <div class="col-2" data-aos="fade-left" data-aos-duration="1300">
+            <div class="title">
+            <h1>Обо мне</h1>
+            </div>
+            <h3>Кто я такой?</h3>
+            <p>Обычный парень, проживающий в Санкт-Петурбурге и обучающийся на программиста. В любое свободное время увлекаюсь веб-дизайном.</p>
+            <h3>Контакты</h3>
+            <p>Буду ждать предложения сотрудничества и отличной работы!</p>
+            <div class="buttons">
+              <a href="mailto:lbdv.dmitry@yandex.ru" class="btn outline">Предложение на почту</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Services -->
+    <section class="section services" id="services">
+      <div class="title">      <h1>Работы</h1>
+      </div>
+
+      <div class="row container">
+        <div class="col" data-aos="fade-right" data-aos-duration="1300">
+          <div class="icon"><i class="bx bx-bulb"></i></div>
+          <span>20 проектов</span>
+          <h3>Programming</h3>
+          <p>
+            Готовые проекты, лабораторные, самостоятельные задания на C++, C#, Python, HTML, CSS
+          </p>
+        </div>
+
+        <div class="col" data-aos="fade-up" data-aos-duration="1300">
+          <div class="icon"><i class="bx bx-layer"></i></div>
+          <span>1 Проект</span>
+          <h3>Graphic Design</h3>
+          <p>
+            Разработка фирменного стиля и логотипа 
+          </p>
+        </div>
+        <div class="col" data-aos="fade-left" data-aos-duration="1300">
+          <div class="icon"><i class="bx bx-desktop"></i></div>
+          <span>2 проекта</span>
+          <h3>Web Design</h3>
+          <p>
+            Подбор брифов, разработка макетов одностраничных сайтов (landing page)
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Porfolio -->
+    <section class="section portfolio" id="portfolio">
+      <div class="row container">
+        <div class="title">
+        <h1>Портфолио</h1>
+        </div>
+
+        <div class="filter-btns d-flex">
+          <span class="active" data-id="all">All</span>
+          <span data-id="graphicDesign">Graphic Design</span>
+          <span data-id="webDesign">Web Design</span>
+        </div>
+      </div>
+
+      <div class="projects container" data-aos="fade-up" data-aos-duration="1300">
+        <img data-id="graphicDesign" src="./images/graf_01.jpg" class="item" alt="">        <img data-id="graphicDesign" src="./images/graf_02.jpg" class="item" alt="">        <img data-id="webDesign" src="./images/web_01.jpg" class="item" alt="">        
+       </div>
+    </section>
+
+   <!-- Contact -->
+<div class="contact-upper" id="contact">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 319"><path  fill-opacity="1" d="M0,160L48,165.3C96,171,192,181,288,186.7C384,192,480,192,576,165.3C672,139,768,85,864,58.7C960,32,1056,32,1152,53.3C1248,75,1344,117,1392,138.7L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+</div>
+<section class="section contact">
+  <div class="title">
+    <h1>Связаться со мной</h1>
+  </div>
+
+  <div class="contact-center container">
+    <div class="left" data-aos="fade-right" data-aos-duration="1300">
+      <form class="form">
+        <h2>Напиши мне</h2>
+        <div>
+          <input type="text" placeholder="Name" required>
+          <input type="email" placeholder="Email" required>
+        </div>
+
+        <textarea name="message"  cols="10" rows="10" placeholder="Describe Project"></textarea>
+        <button type="submit" class="btn btn-form">Отправить</button>
+      </form>
+    </div>
+
+    <div class="right" data-aos="fade-left" data-aos-duration="1300">
+      <div>
+        <span class="icon"><i class="bx bx-user"></i></span>
+        <span class="content">
+          <h3>Имя</h3>
+          <span>Иван Иванов</span>
+        </span>
+      </div>
+      <div>
+        <span class="icon"><i class="bx bx-map"></i></span>
+        <span class="content">
+          <h3>Адресс</h3>
+          <span>г.Санкт-Петербург</span>
+        </span>
+      </div>
+      <div>
+        <span class="icon"><i class="bx bx-envelope"></i></span>
+        <span class="content">
+          <h3>Email</h3>
+          <span>sobaka@gmail.com</span>
+        </span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <p>@copyright 2022 Dmitry</p>
+</footer>
+    <!-- Swiper -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.7.0/swiper-bundle.min.js"></script>
+    <!-- AOS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <!-- Typeit -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typeit/7.0.4/typeit.min.js"></script>
+    <!-- Custom Script -->
+    <script src="index.js"></script>
+  </body>
+</html>
